@@ -1,0 +1,510 @@
+
+
+.body-wrapper{
+        max-width: 62.8rem;
+        margin: 0 auto; 
+}
+/*******************************************************************main-container ******************************************************/
+.main-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 100%;
+        min-height:34rem ;     
+}
+
+.header-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: var(--lightblue);    
+}
+
+.header-content-left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: flex-start;
+    justify-content: center;
+    padding-top: 3.125rem;
+    flex-basis: 40%;
+}
+
+    
+.header-titel{
+    color:var(--black)
+}
+.header-text{
+    display: inline-block;
+    font-family: 'Fira Sans' ;
+    line-height: 1.5rem;
+    margin-top:1.25rem;
+    color:var(--primary-color);
+}
+
+.header-span{
+    color: var(--second-color);
+}
+
+.header-img{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-basis: 60%;  
+}
+
+.header-img .btn{
+    height: 2.5rem;
+    padding: 10px 50px;
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content:center;
+    background:var(--second-color);
+    box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.1);
+    border-radius:6.25rem;
+    margin-top: 3.125rem;
+    margin-left: 6rem;
+    }
+
+    
+    .img{
+     max-height: 18.75rem;
+     max-width: 100%;
+     position: absolute;
+     right: 0;
+     bottom: -6px;
+    }
+
+.top-box{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+.top-box-a{
+    background-color: var(--darkorange);
+}
+
+.top-box-b{
+    background-color: var(--lightorange);
+}
+
+.main-container .top-box-a,.top-box-b{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.main-container .top-box-a,.top-box-b p{
+font-family: 'Fira Sans';
+font-style: normal;
+font-weight: bold;
+font-size: 11px;
+line-height: 13px;
+letter-spacing: -0.02em;
+}
+
+/**********************************************************************navigation *******************************************************/
+.main-nav{
+    width: 100%;
+    height: 5rem;
+}
+
+.menu{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.menu-item{
+    padding:20px 50px;
+}
+
+.menu-item-link{
+font-family: 'Fira Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 100%;
+letter-spacing: -0.02em;
+color:var(--black);
+}
+
+.menu-item-link:hover{
+    color: var(--primary-color);
+}
+
+
+/**************************************************************** wrapper ***************************************************************/
+.wrapper{
+    position: relative;
+    max-height: 88.62rem;
+}
+
+
+
+.test-grey{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    grid-template-areas: 'text-left right-test'
+    'left-side-btn right-test';
+    column-gap: 5em;
+    padding-top: 7rem;
+    margin-right: 5em;
+    margin-left: 10rem; 
+    margin-bottom: 10rem;
+}
+
+
+.text-left{
+    grid-area: text-left;   
+}
+
+.right-test{
+    grid-area: right-test;
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.5rem;
+}
+
+.left-side-btn{
+     grid-area: left-side-btn;
+    display: inline-block;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 10px 40px;
+    height: 40px; 
+    width:45%;
+    background:var(--second-color);
+    box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 50px;
+    margin-top: 4rem;
+}
+
+
+/************************************************************** bilder med caption ******************************************************/
+
+
+.big-grid-menu{
+    display: flex;
+    justify-content: space-around;
+    height: 25rem;
+}
+
+
+
+.grid-menu-item img{
+    margin-top: -3rem;
+    margin-left: 5px;
+}
+
+.boy-img {
+    background-color: var(--lightblue);
+} 
+
+.woman-img{
+    background-color: var(--lightorange); 
+}
+
+.man-img{
+    background-color: var(--darkorange);   
+}
+
+
+.caption{
+    background-color:white;
+    width: 16rem;
+    height: 25rem;
+    margin-top: -7rem;
+    margin-left: -1rem;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column; 
+} 
+
+.big-grid-menu h3{
+    display: flex;
+    justify-content: center;
+    margin-top: 9rem;
+    margin-bottom: 10px;
+}
+
+.big-grid-menu p{
+    display: flex;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+
+/****************************************************************** Gula sidan **********************************************************/
+.text-test{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    z-index: -1;
+    }
+    
+    .big-text-test{
+        display: inline-block;
+        width: 50%;
+        margin-bottom :6rem;
+        text-align: center;    
+    }
+    
+    .big-text-test h1{
+        display: flex;
+        justify-content: center;
+        padding-bottom: 3rem;      
+    }
+
+     .big-text-gul, .space-text{
+        font-weight: 800;  
+    } 
+    
+    .space-text{
+        padding-top: 2rem;
+    }
+
+
+    .wrapper::before{
+        content: "";
+        position: absolute;
+        top:0;
+        left: 0;
+        height: 50%;
+        width: 100%;
+        background-color: var(--grey);
+        z-index: -1;
+    }
+   
+    .wrapper::after{
+       content: "";
+       position: absolute;
+       bottom:0;
+       right: 0;
+       height: 50%;
+       width: 100%;
+       background-color:var(--lightorange);
+       z-index: -1;
+   }
+
+/************************************************************** box-container ***********************************************************/
+.box-conatiner{
+display: grid;
+grid-template-columns: repeat(3,1fr);
+grid-template-rows: repeat(2,1fr);
+}
+
+.box-conatiner > div{
+width: auto;
+height: 21.25rem;
+cursor:pointer;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+text-align: center;
+transition: all 0.5s ease-out; 
+}
+
+.box-one{
+    background-color: var(--lightblue);
+}
+.box-one h1{
+    color: var(--black);
+}
+.box-three{
+    background-color: var(--ljusgrey);
+}
+.box-two , .box-four , .box-sex{
+    background-color: var(--second-color);
+}
+
+.box-five{
+    background-color: var(--darkorange);
+    
+}
+
+.box-two, .box-three , .box-four, .box-five, .box-sex{
+position: relative;
+font-family: 'Fira Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 17px;
+line-height: 20px;
+color: rgba(0, 0, 0, 0.7);
+}
+
+.box-two::before,.box-three::before,.box-four::before,.box-five::before,.box-sex::before{
+    position: absolute;
+    width: 6.25rem;
+    height: 6.25rem;
+    top:15px;
+    left:-10px;
+    font-family: 'Frank Ruhl Libre';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 35px;
+    line-height: 100%;
+    letter-spacing: -0.02em;
+    color: rgba(0, 0, 0, 0.4);
+}
+.box-two::before{
+    content: "01";
+}
+
+.box-three::before{
+    content: "02";
+}
+
+.box-four::before{
+    content: "03";
+}
+
+.box-five::before{
+    content: "04";
+}
+
+.box-sex::before{
+    content: "05";
+}
+/****************************************************************** footer **************************************************************/
+.bottom{
+width: 62.625rem;
+height: 4.25rem;
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+justify-content: center;
+background: #A9A19E;;
+}
+
+
+.bottom-link {
+font-family: 'Fira Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 17px;
+line-height: 20px;
+color: rgba(0, 0, 0, 0.7);
+}
+
+
+.footer{
+height: 21.25rem;
+width: auto;
+background: #777574;
+}
+
+
+/************************************************************************Media **********************************************************/
+
+
+@media only screen and (max-width: 500px){
+
+    .body-wrapper{
+        margin:none; 
+        height: auto;
+}
+ .main-container{
+   height: 75rem;
+     grid-template-columns: 1fr;
+ }
+
+.main-nav,.left-side-btn, .bottom{
+    display: none;
+}
+
+ .test-grey{
+    display: inline-block;
+    column-gap:3rem;
+    padding-top: 5rem;
+    margin-right: 1rem;
+    margin-left: 1rem; 
+    margin-bottom: 2rem;
+} 
+
+.test-grey .text-left{
+margin-bottom: 2rem;
+}
+
+.grid-menu-item img{
+    margin-top: -3rem;
+    margin-left: 1.2rem;
+}
+
+
+/********************************************************************bilderna*************************************************************/
+.big-grid-menu {
+    flex-direction: column;
+    height: auto;
+    margin: 0 0 10rem 0;
+}
+
+.grid-menu-item {
+    display: inline-block;
+    padding-top: 6rem;
+    margin: auto;
+    padding: auto;
+}
+/* **************************************************************wrapper ****************************************************************/
+.wrapper{
+     max-height:100%; 
+     height:175rem; 
+}
+ .wrapper::before{
+     height:75%;
+ }
+
+  .wrapper::after{
+     height: 25%; 
+}
+.caption{
+    margin-left: -0.1rem;
+} 
+
+/************************************************************* den gula *****************************************************************/
+.text-test{
+   display: inline-block;
+   margin-top: 12rem;  
+}
+
+.big-text-test{
+    display: inline-block;
+     width: 100%; 
+    text-align: center;
+     padding-left: 1rem;
+    padding-right: 1rem; 
+}
+
+.big-text-test h1{
+    display: flex;
+    justify-content: center;
+}
+
+/************************************************************ BOXS***********************************************************************/
+
+.box-conatiner{
+    display: grid;
+    grid-template-columns: 1fr;  
+}
+.box-conrainer > div{
+    height: 30px;
+}
+
+
+}

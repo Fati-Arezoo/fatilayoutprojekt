@@ -1,0 +1,68 @@
+
+/***************************************** General Reset and Settings ***************************************/
+
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+   --primary-color: rgba(0, 0, 0, 0.6);
+   --second-color:#ffffff;
+   --black:#000000;
+   --lightblue:#C7DDEA;
+   --darkorange: #F17949;
+   --lightorange:#FAB131;
+   --grey:#A9A19E;
+   --ljusgrey: #EBEBEB;
+}
+
+h1{
+font-family: 'Frank Ruhl Libre';
+color:var(--second-color);
+font-style: normal;
+font-weight: 900;
+font-size: 2.8em;
+line-height: 100%;
+letter-spacing: -0.02em;
+}
+
+h2{  
+font-family: 'Frank Ruhl Libre';
+font-style: normal;
+font-weight: 900;
+font-size: 32px;
+line-height: 41px;
+letter-spacing: -0.02em;
+color: var(--second-color);
+}
+
+p{
+    font-family: 'Fira Sans' ;
+    line-height: 24px;
+    color:var(--primary-color); 
+}
+
+a{
+text-decoration: none;
+font-family: 'Fira Sans';
+font-style: normal;
+color: #000000;
+font-weight: bold;
+font-size: 10px;
+line-height: 12px;
+}
+
+
+ul{
+list-style: none;
+}
+
+
+
+
+    
